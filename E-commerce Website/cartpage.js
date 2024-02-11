@@ -15,7 +15,7 @@ function updateCartDisplay(){
         mainSection.removeChild(rightside);
         let p1 = document.createElement("p");
         p1.setAttribute("class","empty");
-        p1.innerHTML=`<img src="Images/shopping.png"><h1>The Cart is Empty.</h1><h3>Let's add some items</h3></br><a class="additem" href="./homepage.html">ADD ITEMS</a>`;
+        p1.innerHTML=`<img src="Images/shopping.png"><h1>The Cart is Empty.</h1><h3>Let's add some items</h3></br><a class="additem" href="./index.html">ADD ITEMS</a>`;
         mainSection.appendChild(p1);
     }else{
         const emptyMessage = document.querySelector(".empty");
@@ -52,7 +52,7 @@ function updateCartDisplay(){
             const checkoutButton = document.createElement("button");
             checkoutButton.textContent = "Checkout";
             checkoutButton.addEventListener("click",()=>{
-                window.location.href = "./homepage.html";
+                window.location.href = "./index.html";
             })
             rightside.innerHTML=`<div class = "checkout">
                                     <div class = "totalCount">
@@ -92,7 +92,7 @@ const deleteButtons = document.getElementsByClassName('delete');
                 mainSection.removeChild(rightside);
                 let p1 = document.createElement("p");
                 p1.setAttribute("class","empty");
-                p1.innerHTML=`<img src="Images/shopping.png"><h1>The Cart is Empty.</h1><h3>Let's add some items</h3></br><a class="additem" href="./homepage.html">ADD ITEMS</a>`;
+                p1.innerHTML=`<img src="Images/shopping.png"><h1>The Cart is Empty.</h1><h3>Let's add some items</h3></br><a class="additem" href="./index.html">ADD ITEMS</a>`;
                 mainSection.appendChild(p1);
             } else {
                 count--;

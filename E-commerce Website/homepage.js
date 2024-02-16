@@ -12,6 +12,7 @@
         ul.style.height = "300px";
         ul.style.width = "200px";
         ul.style.backgroundColor = "#80808080";
+        ul.style.borderBottomRightRadius = "20px";
         leftaside.style.zIndex = leftaside.style.zIndex ===  '1' ? '-1' : '1';
         li[1].style.paddingTop = '10px';
         li[1].style.paddingLeft = '10px';
@@ -30,7 +31,9 @@
             profileblock.style.position = "relative";
             profileblock.style.top="0px";
             profileblock.style.left="54px";
-            profileblock.style.backgroundColor = "gray"
+            profileblock.style.height = "200px";
+            profileblock.style.borderRadius = "15px";
+            profileblock.style.backgroundColor = "#d3d3d3cb"
             profileblock.style.zIndex=999;
         }else{
             profileblock.style.display = 'none';

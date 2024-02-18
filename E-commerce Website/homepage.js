@@ -42,7 +42,7 @@
 
     document.addEventListener('DOMContentLoaded', () => {    
         let fetchthedata = async function(){
-            let result = await fetch("https://fakestoreapi.com/products/category/electronics");
+            let result = await fetch("https://fakestoreapi.com/products");
             let data = await result.json();
             displaydata(data);
         }

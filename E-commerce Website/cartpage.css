@@ -44,7 +44,8 @@ body{
     position: absolute;
     top: 50%;
     transform: translate(10%,-50%);
-    background-color: rgba(211, 211, 211, 0.297);
+    /* background-color: rgba(211, 211, 211, 0.297); */
+    background-image: linear-gradient(140deg,#baceed, #c2efeb);
     border-radius: 20px;
     height: 70%;
     width: 40%;
@@ -98,7 +99,8 @@ img{
     height: max-content;
     width: 100%;
     padding: 20px;
-    background-color: white;
+    /* background-color: white; */
+    background-image: linear-gradient(140deg,#baceed, #c2efeb);
     line-height: 70px;
     border-radius: 20px;
     box-shadow: 2px 2px 8px rgba(128, 128, 128, 0.171), -2px -2px 8px rgba(128, 128, 128, 0.176);
